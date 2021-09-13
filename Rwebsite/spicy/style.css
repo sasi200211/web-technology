@@ -6,7 +6,7 @@
     box-sizing:border-box;
     font-family: 'Allison', cursive;
     font-family: 'Pacifico', cursive;
-    font-size: large;
+    font-size: xx-large;
     color: rgb(221, 52, 52);
 }
 #navbar
@@ -61,7 +61,7 @@ section{
  
 }
 #Home p{
-    font-size: 15px;
+    font-size: 25px;
     color: #fff;
 }
 #Home .input-group
@@ -83,7 +83,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: black;
 }
 #About p{
-    font-size: 18px;
+    font-size: 25px;
     color: rgb(99, 153, 28);;
 }
 #Product
