@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Allison', cursive;
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+    color: rgb(221, 52, 52);
+}
+#navbar
+{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding: 0.5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,.5);
+    background : black;
+}
+.navbar-brand
+{
+    font-size: 40px;
+    color: #29f700 !important;
+}
+.navbarSupportedContent a
+{
+color:#fff;
+border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f700 ;
+}
+#navbarSupportedContent button
+{
+    background:#f70015 ;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home
+{
+    
+    background-size: cover;
+    background-position:center ;
+    flex-direction: column;
+}
+#Home h1
+{
+ font-size: 100px;
+ color: #fff;
+ font-family: Verdana, Geneva, Tahoma, sans-serif
+ 
+}
+#Home p{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+#Home .input-group
+{
+    width: 40%;
+    height: 45px;
+}
+.signin
+{
+    background: rgb(64, 207, 112) !important;
+    color:#fff !important;
+}
+#About{
+    background:rgb(241, 208, 97);
+}
+#About h1{
+font-size: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+}
+#About p{
+    font-size: 25px;
+    color: rgb(99, 153, 28);;
+}
+#Product
+{
+    background: rgb(189, 189, 189);
+
+}
+#Product h1{
+    font-size: 50px;
+}
+#Product img{
+    width:200px;
+    height:200px;
+}
+.card
+{
+    width: 350px;
+    height: 400px;
+    background:rgb(189, 189, 189) !important;
+    border-color: black !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0,.5);
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin:20px 60px;
+    transition: 10s;
+}
+.card:hover
+{
+    box-shadow: inset 5px 2px 5px rgba(0, 0, 0,.5);
+}
+
+#Contact img{
+    height: 100%;
+
+}
+#Contact 
+{
+    background: salmon;
+}
+.box
+{
+    width: 80%;
+    margin-top: 10px;
+
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+}
+.Contact input
+{
+    margin: 10px 0px;
+}
+.Contact textarea
+{
+    margin: 10px 0px;
+}
+footer{
+    width: 100%;
+background:rgba(0, 0, 0,.5);
+text-align: center;
+color: seashell;
+padding: 3px;
+
+}
+#signin
+{
+    background-image: url(image3.jpg) !important;
+    background-size: cover !important;
+    width:100% !important;
+    height:100vh !important;
+    
+}
+#signin h1{
+    font-size: 50px;
+    color:rgb(240, 47, 111);
+    text-align: center;
+}
