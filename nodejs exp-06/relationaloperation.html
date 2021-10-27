@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        * {
+             background-color:rgb(236, 67, 67)
+         }
+         body{
+             margin-top: 10%;
+         }
+     </style>
+<script>
+var numOne, numTwo, res, temp;
+function fun()
+{
+  numOne = parseInt(document.getElementById("one").value);
+  numTwo = parseInt(document.getElementById("two").value);
+  if(numOne && numTwo)
+  {
+    temp = document.getElementById("res");
+    temp.style.display = "block";
+    res = numOne > numTwo;
+    document.getElementById("greater").value = res;
+    res = numOne < numTwo;
+    document.getElementById("lesser").value = res;
+    res = numOne == numTwo;
+    document.getElementById("equal").value = res;
+    res = numOne >= numTwo;
+    document.getElementById("greaterthaneq").value = res;
+    res = numOne <= numTwo;
+    document.getElementById("lesserthaneq").value = res;
+  }
+}
+</script>
+</head>
+<body>
+    <p id="input">Enter First Number: <input id="one">
+        <br/><br/>
+        Enter Second Number: <input id="two"></p>
+        <p><button onclick="fun()">greater, lesser, greatereq, lesseq</button></p>
+        <p id="res" style="display:none;">
+        Greaterthan Result = <input id="greater"><br/><br/>
+        Lesserthan Result = <input id="lesser"><br/><br/>
+        Greaterthan or Equal Result = <input id="greaterthaneq"><br/><br/>
+        Lesserthan or Equal Result = <input id="lesserthaneq"><br/><br/>
+        Equalto Result = <input id="equal"></p>
+        
+        </body>
+        </html>
